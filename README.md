@@ -1,8 +1,3 @@
-# Quantbiologicalwithml
-Here's the revised README.md with your specifications:
-
----
-
 # Quantum Biological System Simulation
 
 ## Project Overview
