@@ -1,0 +1,5 @@
+# Enforce LF for all text files
+* text=auto eol=lf
+
+# Explicit XML handling
+*.xml text eol=lf
