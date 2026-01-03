@@ -83,6 +83,17 @@ data/best_individual.pkl
 !data/README.md
 !data/*.md
 
+# Compressed archives (DO NOT COMMIT)
+*.gz
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.bz2
+*.xz
+
 # OpenMC simulation outputs
 statepoint*.h5
 tallies.xml
