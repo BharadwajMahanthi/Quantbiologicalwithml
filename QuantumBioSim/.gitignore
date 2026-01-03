@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+.venv_evo/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+*.log
+openmc_static/
+research/
+classification_index.csv.sha256
+con.py
+evolution.log
+
+# Large data files (DO NOT COMMIT)
+data/ancestral_fastq/
+data/**/*.fastq
+data/**/*.fastq.gz
+data/**/*.fasta
+data/**/*.fasta.gz
+data/**/*.bam
+data/**/*.sam
+data/**/*.vcf
+data/**/*.vcf.gz
+data/best_individual.pkl
+*.pkl
+
+# Keep only essential CSVs and documentation
+!data/parameters.csv
+!data/references.bib
+!data/README.md
+!data/*.md
+
+# OpenMC simulation outputs
+statepoint*.h5
+tallies.xml
+summary.h5
+plots.xml
+*.vtp
+*.vtk
+
+# Temporary files
+*.tmp
+*.bak
