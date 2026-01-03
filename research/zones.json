@@ -1,0 +1,32 @@
+{
+  "Zone 1": {
+    "Min Contamination": 1480.0,
+    "Max Contamination": 5000.0,
+    "Unit": "kBq/m²",
+    "Description": "Highly contaminated areas, typically near the Chernobyl reactor"
+  },
+  "Zone 2": {
+    "Min Contamination": 555.0,
+    "Max Contamination": 1480.0,
+    "Unit": "kBq/m²",
+    "Description": "Moderately contaminated areas, often in forested regions"
+  },
+  "Zone 3": {
+    "Min Contamination": 185.0,
+    "Max Contamination": 555.0,
+    "Unit": "kBq/m²",
+    "Description": "Low to moderate contamination, suitable for limited habitation"
+  },
+  "Zone 4": {
+    "Min Contamination": 37.0,
+    "Max Contamination": 185.0,
+    "Unit": "kBq/m²",
+    "Description": "Low contamination, generally safe for human activity"
+  },
+  "Zone 5": {
+    "Min Contamination": 0.0,
+    "Max Contamination": 37.0,
+    "Unit": "kBq/m²",
+    "Description": "Negligible contamination, comparable to natural background"
+  }
+}

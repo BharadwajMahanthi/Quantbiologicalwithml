@@ -1,0 +1,254 @@
+[
+  {
+    "Strain ID": "1101-1",
+    "Location": "Near Zalizia, Ukraine",
+    "Latitude": 51.15000,
+    "Longitude": 30.12000,
+    "Date of Collection": "2013-09-01"
+  },
+  {
+    "Strain ID": "1101-2",
+    "Location": "Near Zalizia, Ukraine",
+    "Latitude": 51.15050,
+    "Longitude": 30.12020,
+    "Date of Collection": "2013-09-01"
+  },
+  {
+    "Strain ID": "1101-3",
+    "Location": "Near Zalizia, Ukraine",
+    "Latitude": 51.14950,
+    "Longitude": 30.11980,
+    "Date of Collection": "2013-09-01"
+  },
+  {
+    "Strain ID": "1102-1",
+    "Location": "EcoCenter, Ukraine",
+    "Latitude": 51.20670,
+    "Longitude": 30.00000,
+    "Date of Collection": "2013-09-01"
+  },
+  {
+    "Strain ID": "1102-2",
+    "Location": "EcoCenter, Ukraine",
+    "Latitude": 51.20650,
+    "Longitude": 30.00020,
+    "Date of Collection": "2013-09-01"
+  },
+  {
+    "Strain ID": "1103-3",
+    "Location": "Vesniane, Ukraine",
+    "Latitude": 51.31670,
+    "Longitude": 29.64060,
+    "Date of Collection": "2013-09-01"
+  },
+  {
+    "Strain ID": "1105",
+    "Location": "Red Forest, Ukraine",
+    "Latitude": 51.38330,
+    "Longitude": 30.06670,
+    "Date of Collection": "2013-09-01"
+  },
+  {
+    "Strain ID": "1106",
+    "Location": "Hilton, Ukraine",
+    "Latitude": 51.54330,
+    "Longitude": 30.17470,
+    "Date of Collection": "2013-09-01"
+  },
+  {
+    "Strain ID": "1109",
+    "Location": "Ecopolis, Ukraine",
+    "Latitude": 51.39310,
+    "Longitude": 30.07360,
+    "Date of Collection": "2013-09-01"
+  },
+  {
+    "Strain ID": "1161",
+    "Location": "Chernobyl Village, Ukraine",
+    "Latitude": 51.27630,
+    "Longitude": 30.22190,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1162",
+    "Location": "Vesniane, Ukraine",
+    "Latitude": 51.31650,
+    "Longitude": 29.64080,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1163",
+    "Location": "Ivankov, Ukraine",
+    "Latitude": 51.23000,
+    "Longitude": 30.01970,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1164",
+    "Location": "Voronkov, Ukraine",
+    "Latitude": 50.13000,
+    "Longitude": 30.53000,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1165-1",
+    "Location": "Near Chernobyl, Ukraine",
+    "Latitude": 51.20770,
+    "Longitude": 30.00100,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1165-2",
+    "Location": "Near Chernobyl, Ukraine",
+    "Latitude": 51.20750,
+    "Longitude": 30.00120,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1142-2",
+    "Location": "Budaörs, Hungary",
+    "Latitude": 47.46180,
+    "Longitude": 18.92080,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1191",
+    "Location": "Bingen-am-Rhein, Germany",
+    "Latitude": 49.96220,
+    "Longitude": 7.90320,
+    "Date of Collection": "2014-08-01"
+  },
+  {
+    "Strain ID": "1192",
+    "Location": "Monheim-am-Rhein, Germany",
+    "Latitude": 51.10000,
+    "Longitude": 6.90370,
+    "Date of Collection": "2014-08-01"
+  },
+  {
+    "Strain ID": "1116-1",
+    "Location": "Chernobyl Village, Ukraine",
+    "Latitude": 51.27650,
+    "Longitude": 30.22210,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1116-2",
+    "Location": "Chernobyl Village, Ukraine",
+    "Latitude": 51.27610,
+    "Longitude": 30.22170,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1116-3",
+    "Location": "Chernobyl Village, Ukraine",
+    "Latitude": 51.27670,
+    "Longitude": 30.22230,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1126-1",
+    "Location": "Vesniane, Ukraine",
+    "Latitude": 51.31690,
+    "Longitude": 29.64040,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1126-2",
+    "Location": "Vesniane, Ukraine",
+    "Latitude": 51.31630,
+    "Longitude": 29.64100,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1111-1",
+    "Location": "Red Forest, Ukraine",
+    "Latitude": 51.38350,
+    "Longitude": 30.06690,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1111-2",
+    "Location": "Red Forest, Ukraine",
+    "Latitude": 51.38310,
+    "Longitude": 30.06650,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1146-1",
+    "Location": "Red Forest, Ukraine",
+    "Latitude": 51.38370,
+    "Longitude": 30.06710,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1146-2",
+    "Location": "Red Forest, Ukraine",
+    "Latitude": 51.38290,
+    "Longitude": 30.06630,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1127-1",
+    "Location": "Vesniane, Ukraine",
+    "Latitude": 51.31710,
+    "Longitude": 29.64020,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1127-2",
+    "Location": "Vesniane, Ukraine",
+    "Latitude": 51.31610,
+    "Longitude": 29.64120,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1127-3",
+    "Location": "Vesniane, Ukraine",
+    "Latitude": 51.31730,
+    "Longitude": 29.64000,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1130",
+    "Location": "Red Forest, Ukraine",
+    "Latitude": 51.38390,
+    "Longitude": 30.06730,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1131",
+    "Location": "Red Forest, Ukraine",
+    "Latitude": 51.38270,
+    "Longitude": 30.06610,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1132-1",
+    "Location": "Red Forest, Ukraine",
+    "Latitude": 51.38410,
+    "Longitude": 30.06750,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1132-2",
+    "Location": "Red Forest, Ukraine",
+    "Latitude": 51.38250,
+    "Longitude": 30.06590,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1132-3",
+    "Location": "Red Forest, Ukraine",
+    "Latitude": 51.38430,
+    "Longitude": 30.06770,
+    "Date of Collection": "2014-06-01"
+  },
+  {
+    "Strain ID": "1134",
+    "Location": "Chernobyl Reactor, Ukraine",
+    "Latitude": 51.38940,
+    "Longitude": 30.09940,
+    "Date of Collection": "2014-06-01"
+  }
+]

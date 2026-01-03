@@ -1,0 +1,100 @@
+{
+  "Red Forest, Ukraine": {
+    "Latitude": 51.3833,
+    "Longitude": 30.0667,
+    "Habitat": "Forest",
+    "Radiation_µSv_hr": 10.5,
+    "Contamination_kBq_m2": 3700
+  },
+  "Chernobyl Village, Ukraine": {
+    "Latitude": 51.2763,
+    "Longitude": 30.2219,
+    "Habitat": "Urban",
+    "Radiation_µSv_hr": 0.3,
+    "Contamination_kBq_m2": 370
+  },
+  "Near Zalizia, Ukraine": {
+    "Latitude": 51.15,
+    "Longitude": 30.12,
+    "Habitat": "Meadow",
+    "Radiation_µSv_hr": 1.0,
+    "Contamination_kBq_m2": 740
+  },
+  "EcoCenter, Ukraine": {
+    "Latitude": 51.2067,
+    "Longitude": 30.0,
+    "Habitat": "Urban",
+    "Radiation_µSv_hr": 0.2,
+    "Contamination_kBq_m2": 185
+  },
+  "Vesniane, Ukraine": {
+    "Latitude": 51.3167,
+    "Longitude": 29.6406,
+    "Habitat": "Forest",
+    "Radiation_µSv_hr": 5.0,
+    "Contamination_kBq_m2": 1850
+  },
+  "Ivankov, Ukraine": {
+    "Latitude": 51.23,
+    "Longitude": 30.0197,
+    "Habitat": "Meadow",
+    "Radiation_µSv_hr": 0.12,
+    "Contamination_kBq_m2": 37
+  },
+  "Voronkov, Ukraine": {
+    "Latitude": 50.13,
+    "Longitude": 30.53,
+    "Habitat": "Forest",
+    "Radiation_µSv_hr": 0.1,
+    "Contamination_kBq_m2": 18
+  },
+  "Budaörs, Hungary": {
+    "Latitude": 47.4618,
+    "Longitude": 18.9208,
+    "Habitat": "Urban",
+    "Radiation_µSv_hr": 0.12,
+    "Contamination_kBq_m2": 0
+  },
+  "Bingen-am-Rhein, Germany": {
+    "Latitude": 49.9622,
+    "Longitude": 7.9032,
+    "Habitat": "Meadow",
+    "Radiation_µSv_hr": 0.12,
+    "Contamination_kBq_m2": 0
+  },
+  "Monheim-am-Rhein, Germany": {
+    "Latitude": 51.1,
+    "Longitude": 6.9037,
+    "Habitat": "Urban",
+    "Radiation_µSv_hr": 0.12,
+    "Contamination_kBq_m2": 0
+  },
+  "Chernobyl Reactor, Ukraine": {
+    "Latitude": 51.3894,
+    "Longitude": 30.0994,
+    "Habitat": "Reactor",
+    "Radiation_µSv_hr": 2.5,
+    "Contamination_kBq_m2": 3700
+  },
+  "Ecopolis, Ukraine": {
+    "Latitude": 51.3931,
+    "Longitude": 30.0736,
+    "Habitat": "Urban",
+    "Radiation_µSv_hr": 0.15,
+    "Contamination_kBq_m2": 37
+  },
+  "Hilton, Ukraine": {
+    "Latitude": 51.5433,
+    "Longitude": 30.1747,
+    "Habitat": "Urban",
+    "Radiation_µSv_hr": 0.8,
+    "Contamination_kBq_m2": 370
+  },
+  "Near Chernobyl, Ukraine": {
+    "Latitude": 51.2077,
+    "Longitude": 30.001,
+    "Habitat": "Urban",
+    "Radiation_µSv_hr": 0.2,
+    "Contamination_kBq_m2": 185
+  }
+}

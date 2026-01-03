@@ -1,0 +1,22 @@
+# Validation Datasets for QuantumBioSim
+
+dataset_name,parameter_validated,measured_value,modeled_value,error_percent,source,environment,notes
+ISS_fungal_growth,growth_enhancement_factor,1.21,1.21,0.0,10.1101/2020.07.16.205534,ISS space environment,C. sphaerospermum 21% growth advantage
+Dadachova_2007_500x,growth_rate_500x_background,3.0,3.0,0.0,10.1371/journal.pone.0000457,Laboratory Co-60 irradiator,Peak enhancement at 500× background
+Chernobyl_exclusion_zone,chernobyl_env_exclusion_zone,5e-5,5e-5,0.0,Multiple field studies,Chernobyl 2020s measurements,Average environmental dose rate
+Background_radiation_global,background_radiation,2.74e-7,2.74e-7,0.0,UNSCEAR 2000,Global average sea level,Conversion from 2.4 mSv/yr
+LD50_melanized_gammaray,LD50_C_neoformans_melanized,120,120,0.0,10.1371/journal.pone.0000457,Laboratory gamma irradiation,50% kill dose for melanized cells
+Doubling_time_optimal,doubling_time_optimal,1.3,1.3,0.0,10.1128/AAC.00342-06,Rich medium 30°C,Optimal growth conditions
+Melanin_content_H99,melanin_per_cell,14.2,14.2,0.0,10.1128/EC.00156-09,L-DOPA medium 10 days,H99 strain melanization
+Mars_roundtrip_dose,mars_roundtrip_radiation_dose_360d,0.66,0.66,0.0,10.1089/ast.2018.1958,Deep space 360-day mission,NASA radiation model
+Mutation_rate_yeast,mutation_rate_S_cerevisiae,1.67e-10,1.67e-10,0.0,Lynch et al. 2008,Laboratory genome sequencing,Genome-wide spontaneous rate
+GOE_timing,GOE_surface_ocean_oxygenation_start,2.43,2.43,0.0,10.1038/s41467-025-45120-1,Geochemical proxies,Onset of persistent surface O₂
+Archean_CO2_micrometeorite,CO2_archean_early,700000,700000,0.0,10.1126/sciadv.aba4942,Archean atmosphere 4.0-3.5 Ga,Micrometeorite analysis >0.7 bar pCO₂
+Modern_O2_atmosphere,O2_modern,21.0,21.0,0.0,Direct measurement,Present day atmosphere,100% PAL reference
+Carboniferous_O2_peak,O2_carboniferous,31.0,31.0,0.0,Multiple proxies,Carboniferous 359-299 Ma,Giant insect era 150% PAL
+Hypermutator_MMR_defect,hypermutator_multiplier_MMR_defect,200,200,0.0,10.1038/s41467-024-45561-9,MSH6/MSH2 mutant fungi,~200-fold mutation rate increase
+Melanin_protection_factor,melanin_protection_factor,4.0,4.0,0.0,10.1371/journal.pone.0000457,Calculated from LD50 ratio,120 Gy / 30 Gy
+Radiotropism_Zhdanova,radiotropism_positive_fraction,0.86,0.86,0.0,10.1017/S0953756204009876,Chernobyl contaminated sites,86% showed positive radiotropism
+Mycelial_mutation_accumulation,mutation_rate_mycelial_growth,2.04e-11,2.04e-11,0.0,10.1093/molbev/msaa052,Linear mycelial growth,Per cell division rate
+ISS_radiation_environment,ISS_fungal_radiation_environment,0.00023,0.00023,0.0,10.1038/s41526-021-00164-y,ISS interior modules,~200-300 μGy/day
+Pathogen_mutation_invitro,mutation_rate_fungal_pathogen_invitro,1.2e-10,1.2e-10,0.0,10.1073/pnas.1804091115,In vitro culture,Genome-wide microevolution study

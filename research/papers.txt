@@ -1,0 +1,23 @@
+Dadachova et al. “Ionizing Radiation Changes the Electronic Properties of Melanin and Enhances the Growth of Melanized Fungi.” PLoS ONE 2007. 
+journals.plos.org
+
+Yuzon et al. “Transcriptomic and Genomic Effects of γ-Radiation on Exophiala dermatitidis.” Microbiol Spectr 2023. 
+pmc.ncbi.nlm.nih.gov
+
+Gusa et al. “Genome-wide Analysis of Heat Stress-Stimulated Transposon Mobility in Cryptococcus deneoformans.” PNAS 2023. 
+pmc.ncbi.nlm.nih.gov
+
+Vasilieva et al. “Evaluating Changes in Growth and Pigmentation of Cladosporium spp. under UV/γ-Radiation.” Sci Rep 2022. 
+nature.com
+
+docker run --rm -v "C:\Users\mbpd1\Downloads\pp-mywork\Quantbiologicalwithml:/input" -e IN_DOCKER=1 -e LD_LIBRARY_PATH=/usr/local/lib:/usr/lib:/root/OpenMC/openmc/lib:$LD_LIBRARY_PATH  nvidia/cuda:with-cuda python3 /input/quantv1.1.py
+
+docker run --rm --gpus all ^
+  -e IN_DOCKER=1 ^
+  -e OPENMC_CROSS_SECTIONS=/root/openmc_data/endfb8-nndc/cross_sections.xml ^
+  -w /input ^
+  -v "%CD%:/input" ^
+  nvidia/cuda:with-cuda ^
+  python3 quantv1.2.py --steps 1000 --profile Cryptococcus
+
+docker run --rm --gpus all -e IN_DOCKER=1 -e OPENMC_CROSS_SECTIONS=/root/openmc_data/endfb8-nndc/cross_sections.xml -w /input -v "%CD%:/input" nvidia/cuda:with-cuda python3 quantv1.2.py --steps 1000

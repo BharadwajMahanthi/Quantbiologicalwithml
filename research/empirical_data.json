@@ -1,0 +1,194 @@
+{
+  "Cladosporium sphaerospermum": {
+    "Control_Growth_Rate": 0.22,
+    "Radiation_Growth_Rate": 0.35,
+    "Radiation_µSv_hr": 2.5,
+    "Error_Margin": 0.15,
+    "Reference": "Dadachova et al 2007",
+    "Substrate": "PDA"
+  },
+  "Wangiella dermatitidis": {
+    "Control_Growth_Rate": 0.20,
+    "Radiation_Growth_Rate": 0.30,
+    "Radiation_µSv_hr": 2.5,
+    "Error_Margin": 0.15,
+    "Reference": "Dadachova et al 2007",
+    "Substrate": "SDA"
+  },
+  "Cryptococcus neoformans": {
+    "Control_Growth_Rate": 0.18,
+    "Radiation_Growth_Rate": 0.28,
+    "Radiation_µSv_hr": 2.5,
+    "Error_Margin": 0.15,
+    "Reference": "Dadachova et al 2007",
+    "Substrate": "L-dopa"
+  },
+  "Boletus edulis": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 0.3,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Leccinum aurantiacum": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 0.3,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Leccinum scabrum": {
+    "Control_Growth_Rate": 0.20,
+    "Radiation_Growth_Rate": 0.25,
+    "Radiation_µSv_hr": 2.5,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Suillus luteus": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 5.0,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Cantharellus cibarius": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 5.0,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Russula xerampelina": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 5.0,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Amanita phalloides": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 0.12,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Amanita muscaria": {
+    "Control_Growth_Rate": 0.20,
+    "Radiation_Growth_Rate": 0.25,
+    "Radiation_µSv_hr": 0.12,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Gyromitra esculenta": {
+    "Control_Growth_Rate": 0.20,
+    "Radiation_Growth_Rate": 0.25,
+    "Radiation_µSv_hr": 0.12,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Psathyrella candolleana": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 1.0,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Inocybe geophylla": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 0.2,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Coprinellus micaceus": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 5.0,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Lactarius deliciosus": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 10.5,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Hygrophorus russula": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 0.8,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Cortinarius praestans": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 0.3,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Mycena flavoalba": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 5.0,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Hebeloma crustuliniforme": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 0.12,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Marasmius oreades": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 0.1,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Melanoleuca melaleuca": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 0.2,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Pholiota squarrosa": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 0.12,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  },
+  "Coprinopsis atramentaria": {
+    "Control_Growth_Rate": 0.15,
+    "Radiation_Growth_Rate": 0.13,
+    "Radiation_µSv_hr": 0.12,
+    "Error_Margin": 0.15,
+    "Reference": "Estimated from field studies",
+    "Substrate": "Soil"
+  }
+}

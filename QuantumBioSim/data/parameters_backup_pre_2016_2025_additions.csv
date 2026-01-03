@@ -1,0 +1,175 @@
+parameter,value,unit,uncertainty,reference,DOI,notes
+# Cryptococcus neoformans Growth Parameters
+doubling_time_optimal,1.3,hours,0.3,"Zaragoza et al. (nutrient-rich, 30°C)",10.1128/AAC.00342-06,Optimal growth in rich medium
+doubling_time_typical,3.95,hours,1.25,"Strain variation (2.7-5.2 hr range)",10.1093/femsyr/foab026,Average of reported strains in glucose media
+growth_temp_optimal,30,celsius,0,"Standard laboratory conditions",N/A,Optimal growth temperature
+growth_temp_range_min,25,celsius,0,"Viable growth range",N/A,Minimum growth temperature
+growth_temp_range_max,37,celsius,0,"Viable growth range",N/A,Maximum growth temperature (human body)
+
+# Melanin Content and Synthesis
+melanin_dry_mass_fraction,0.154,dimensionless,0.02,"10 days in 1mM L-DOPA medium",10.1186/1471-2180-6-11,15.4% of dry cell mass
+melanin_per_cell,14.2,femtogram,3,"H99 strain in DOPA medium",10.1128/EC.00156-09,~71 ng per 5×10⁶ cells
+melanin_per_cell_alt,1.96,femtogram,0.5,"ATCC 34873 strain",10.1128/EC.00156-09,~9.8 ng per 5×10⁶ cells
+L_DOPA_optimal_conc,1.0,millimolar,0.2,"For melanization",10.1080/13693780903497304,Concentrations >1mM can inhibit
+cell_wall_thickness_melanized,120,nanometer,20,"With melanin vs 80nm without",Multiple,Melanin increases wall thickness
+
+# Fungal Biomass and Carrying Capacity
+fungal_gene_copies_mat,5e6,copies_per_gram,3e6,"18S rRNA genes in microbial mats",10.1038/ismej.2015.221,10⁶-10⁷ range typical
+fungal_biomass_stream,2.5,g_C_per_m2,1.5,"Fungal carbon in stream ecosystems",ResearchGate,High organic matter substrates
+mycelium_density_composite,200,kg_per_m3,50,"Engineered mycelial materials",Wikipedia,Density of fungal mycelium blocks
+carrying_capacity_liquid,8.5,g_dry_weight_per_L,2,"Filamentous bio-mats",Patent,Artificial media cultures
+
+# Radiation Biology (from previous research)
+background_radiation,2.74e-7,Gy_per_hour,5e-8,"Natural Earth background (2.4 mSv/yr)",Multiple,Conversion: 2.4 mSv/yr ÷ 8760 hr/yr = 2.74e-7 Gy/hr
+dadachova_exp_dose_rate,11.94,Gy_per_minute,1,"Dadachova 2007 lab irradiator (Cs-137)",10.1371/journal.pone.0000457,"Experimental setup, NOT environmental"
+dadachova_exp_dose_rate_hourly,0.716,Gy_per_hour,0.06,"Dadachova experimental (hourly rate)",10.1371/journal.pone.0000457,"11.94 Gy/min × 60 min/hr (if continuous)"
+chernobyl_env_exclusion_zone,5e-5,Gy_per_hour,4e-5,"Chernobyl exclusion zone average (50 μSv/hr)",Multiple,"Environmental levels 2020s, 0.06-100 μSv/hr range"
+chernobyl_env_hotspot_max,1e-4,Gy_per_hour,5e-5,"Chernobyl hotspot maximum (100 μSv/hr)",Multiple,"Red Forest areas, highly variable"
+chernobyl_reactor_hall_1986,175,Gy_per_hour,50,"Reactor building immediately post-accident",Multiple,">20,000 R/hr, lethal in minutes"
+growth_enhancement_factor,3.0,dimensionless,0.5,"Melanized fungi under Dadachova irradiation",10.1371/journal.pone.0000457,"Lab experiment with high-dose irradiation"
+ISS_growth_advantage,0.21,dimensionless,0.05,"C. sphaerospermum on ISS",10.1101/2020.07.16.205534,21% faster growth in space radiation
+
+# Cell Physical Properties
+cell_mass_C_neoformans,1.2,picogram,0.3,"Cryptococcus dry mass per cell",Estimated,Typical yeast cell mass
+cell_diameter,5.5,micrometer,1,"Capsule-free cells",Multiple,Range 4-7 μm
+cell_volume,87,cubic_micrometer,30,"Calculated from diameter",Calculated,Assuming spherical
+
+# Atmospheric Evolution Timeline (from previous research)
+O2_hadean,2e-6,percent_volume,1e-6,"4.6-4.0 Ga",Multiple,Virtually anoxic
+O2_archean_early,2e-4,percent_volume,1e-4,"4.0-3.5 Ga",Multiple,"<0.001% PAL"
+O2_archean_late,0.01,percent_volume,0.008,"3.0-2.5 Ga, whiffs",10.1038/nature09527,Transient increases
+O2_GOE,1.0,percent_volume,0.5,"2.5-2.0 Ga",10.1098/rsta.2006.1896,"Great Oxidation Event, 1-10% PAL"
+O2_proterozoic,5.0,percent_volume,2,"2.0-0.54 Ga",Multiple,10-40% PAL average
+O2_phanerozoic,18.0,percent_volume,5,"0.54-0 Ga",Multiple,Varied 50-150% PAL
+O2_modern,21.0,percent_volume,0.1,"Present day",Measured,100% PAL
+
+# Radiation Timeline (Geological)
+cosmic_rays_hadean,10,relative_to_modern,3,"4.6-4.0 Ga",Estimated,Weaker magnetosphere
+cosmic_rays_archean,5,relative_to_modern,2,"4.0-2.5 Ga",Estimated,Strengthening field
+cosmic_rays_modern,1,relative_to_modern,0,Present,Measured,Baseline
+radionuclide_dose_hadean,5.0,Gy_per_year,1.5,"U/Th/K decay",Calculated,High primordial isotopes
+radionuclide_dose_archean,2.0,Gy_per_year,0.5,"Declining isotopes",Calculated,Half-lives passing
+radionuclide_dose_modern,0.002,Gy_per_year,0.001,"Remnant decay",Measured,~2 mGy/year
+
+# TO BE ADDED (Week 1.2-2.2)
+# - Mutation rates (substitutions per bp per generation)
+# - Selection coefficients
+# - Nutrient uptake kinetics (Michaelis-Menten Km, Vmax)
+# - Temperature response curves
+# - Dose-response relationships (detailed)
+
+# Week 1.2: Radiation Biology Deep Dive (COMPLETED)
+# Lethal Doses and Survival
+LD50_C_neoformans_melanized,120,Gray,20,"50% kill for melanized cells",10.1371/journal.pone.0000457,"Gamma radiation, Dadachova 2007"
+kill_80pct_melanized,360,Gray,40,"80% kill for melanized C. neoformans",10.1371/journal.pone.0000457,Higher dose for effective sterilization
+LD50_C_neoformans_nonmelanized,30,Gray,10,"Estimated from sensitivity difference",Estimated,"~4x more sensitive than melanized"
+UV_LD99_C_sphaerospermum,250,mJ_per_cm2,50,"99.9% spore inactivation by UV-C",Multiple,Extremely radioresistant to gamma
+melanin_protection_factor,4.0,dimensionless,1,"Survival ratio melanized/non-melanized",10.1371/journal.pone.0000457,Radioprotection from melanin
+
+# Radiotropism Quantitative Data (Zhdanova 2004)
+radiotropism_positive_fraction,0.86,dimensionless,0.1,"Fraction showing positive radiotropism",10.1017/S0953756204009876,"Fungi from contaminated sites"
+radiotropism_mean_angle,65,degrees,15,"Mean return angle toward radiation",10.1017/S0953756204009876,"<90° indicates attraction"
+radiotropism_total_interactions,27,count,0,"Total fungal-radiation interactions tested",10.1017/S0953756204009876,Zhdanova 2004 dataset
+radiotropism_positive_count,18,count,0,"Interactions showing growth stimulation",10.1017/S0953756204009876,66.7% of total
+
+# DNA Damage and Repair Kinetics
+DNA_repair_half_time,6,hours,2,"Time to 50% reduction in γH2AX foci",Multiple estimates,"Typical for NHEJ pathway"
+DNA_repair_complete_time,24,hours,6,"Time to full γH2AX foci disappearance",10.1038/nrm2380,If repair is successful
+DNA_damage_equilibrium_time,24,hours,6,"Plateau of damage-repair balance",Multiple,"Under chronic irradiation"
+NER_repair_rate_UV,30,minutes,10,"Nucleotide Excision Repair for UV",ResearchGate,Yeast UV damage repair
+upregulation_repair_genes,2.5,fold_change,0.8,"DNA repair gene expression increase",Estimated,"C. neoformans, A. auricula-judae"
+
+# Dose-Response Parameters (Dadachova 2007 - extracted from text)
+baseline_growth_rate_no_rad,1.0,dimensionless,0,"Normalized growth with no radiation",Reference,Baseline for comparison
+growth_rate_150x_background,1.5,dimensionless,0.3,"Growth at 150x background (~45 μGy/hr)",Interpolated,"Low dose enhancement"
+growth_rate_500x_background,3.0,dimensionless,0.5,"Growth at 500x background (~150 μGy/hr)",10.1371/journal.pone.0000457,"Peak enhancement reported"
+saturation_dose_growth,0.5,Gy_per_hour,0.2,"Dose where growth enhancement saturates",Estimated,"Beyond this, no further boost"
+inhibition_dose_threshold,10,Gy_per_hour,5,"Dose where growth starts declining",Estimated,"Damage exceeds repair capacity"
+
+# Week 1.3: Atmospheric Evolution Timeline (COMPLETED)
+# CO₂ Concentrations by Epoch
+CO2_hadean,120000,ppm,30000,"Hadean 4.6-4.0 Ga",Multiple,"Multi-bar levels, faint sun paradox"
+CO2_archean_early,700000,ppm,200000,"Early Archean 4.0-3.5 Ga, 70% by volume",10.1126/sciadv.aba4942,"Micrometeorite analysis, >0.7 bar pCO2"
+CO2_archean_mid,50000,ppm,40000,"Mid Archean 3.5-3.0 Ga",Estimated,"100-1000x PAL to prevent freezing"
+CO2_archean_late,5000,ppm,3000,"Late Archean 3.0-2.5 Ga",10.1029/2002PA000760,"Paleosol data, controversial"
+CO2_proterozoic_early,15000,ppm,10000,"Proterozoic 2.5-1.0 Ga, 10-200x PAL",Multiple,"Post-GOE decline"
+CO2_proterozoic_late,2000,ppm,1000,"Late Proterozoic 1.0-0.54 Ga",10.1126/science.289.5477.276,"Approaching Phanerozoic levels"
+CO2_cambrian,7000,ppm,3000,"Cambrian 541-485 Ma, 10-15x PAL",Multiple,"Early Paleozoic high"
+CO2_ordovician,6000,ppm,3000,"Ordovician 485-444 Ma",climate.nasa.gov,"3,000-9,000 ppm"
+CO2_devonian,2500,ppm,1000,"Devonian 419-359 Ma",Multiple,"<0.3% declining"
+CO2_carboniferous,400,ppm,200,"Carboniferous 359-299 Ma",Multiple,"Minimum ~0.04%, land plant expansion"
+CO2_permian,800,ppm,400,"Permian 299-252 Ma",10.1073/pnas.1621424114,"Post-ice age increase, 4x spike ~294 Ma"
+CO2_triassic,1500,ppm,500,"Triassic 252-201 Ma",Estimated,"Mesozoic elevated levels"
+CO2_jurassic,1200,ppm,150,"Jurassic 201-145 Ma, 4x PAL",10.1073/pnas.95.22.12955,"Late Jurassic 1200±150 ppmv"
+CO2_cretaceous,750,ppm,200,"Cretaceous 145-66 Ma, 3x PAL",10.1073/pnas.95.22.12955,"Late Cretaceous 750±200 ppmv"
+CO2_cenozoic_early,1600,ppm,400,"Early Cenozoic 66-34 Ma, hothouse peak",10.1126/science.1178066,"~51 Ma peak"
+CO2_cenozoic_mid,550,ppm,150,"Mid Cenozoic 34-16 Ma",10.1126/science.1178066,"Antarctic glaciation"
+CO2_cenozoic_late,280,ppm,20,"Late Cenozoic 2.6 Ma-present, pre-industrial",Multiple,"Plio-Pleistocene 278-284 ppm"
+CO2_modern,420,ppm,5,"Present day 2024",Measured,"Highest in 14 million years"
+
+# CH₄ Concentrations (Methane)
+CH4_archean_low,100,ppm,50,"Conservative estimate Archean",10.1098/rsta.2006.1875,"With oxygenic photosynthesis"
+CH4_archean_mid,500,ppm,300,"Mid-range estimate Archean, 0.05%",Multiple,"100-1000 ppm typical"
+CH4_archean_high,5000,ppm,2000,"High estimate Archean, >0.5%",10.1126/science.1127863,"Xenon isotope evidence 3.5 Ga"
+CH4_archean_anoxic,3000,ppm,1000,"Anoxic Archean atmosphere, 0.3%",Multiple,"Substantial CH4 flux scenario"
+CH4_modern,1.8,ppm,0.2,"Present atmospheric level",Measured,"For comparison, 0.00017%"
+
+# Atmospheric Pressure Evolution
+pressure_hadean,1.5,bar,1,"Hadean 4.6-4.0 Ga",Estimated,"Multi-bar CO2 greenhouse"
+pressure_archean_high,1.2,bar,0.6,"Archean upper estimate from raindrops",10.1038/nature09970,"Fossilized raindrop imprints 2.7 Ga"
+pressure_archean_mid,0.75,bar,0.25,"Archean mid estimate",Multiple,"0.52-1.2 bar range"
+pressure_archean_low,0.23,bar,0.23,"Archean lower estimate from lava",10.1038/nature09970,"Gas bubbles in basalt 2.7 Ga"
+pressure_archean_N2,0.5,bar,0.3,"Archean N2 partial pressure",10.1038/ngeo1851,"Quartz fluid inclusions 3.0-3.5 Ga"
+pressure_proterozoic,1.0,bar,0.2,"Proterozoic approaching modern",Estimated,"Transitioning to modern levels"
+pressure_modern,1.013,bar,0.001,"Present sea level",Measured,"Standard atmosphere"
+
+# Phanerozoic O₂ Levels (additional detail)
+O2_cambrian,7,percent_volume,2,"Cambrian 541-485 Ma, 5-10%",Multiple,"~50% PAL, evolutionary radiation"
+O2_devonian,17,percent_volume,3,"Devonian 419-359 Ma",Multiple,"15-20%, Age of Fishes"
+O2_carboniferous,31,percent_volume,2,"Carboniferous 359-299 Ma, 150% PAL",Multiple,"Peak ~350 Ma, giant insects"
+O2_permian,17,percent_volume,2,"Permian 299-252 Ma",Multiple,"Declined from Carboniferous peak"
+O2_jurassic,12,percent_volume,2,"Early Jurassic 201-174 Ma, 60% PAL",ResearchGate,"Low point in Mesozoic"
+O2_cenozoic_avg,21,percent_volume,1,"Cenozoic average",Multiple,"Close to modern levels"
+
+# TO BE ADDED (Week 2.1-2.2)
+# - Mutation rates
+# - Selection coefficients
+# - Nutrient uptake kinetics
+
+# Week 2.1: Microbial Ecology Parameters (COMPLETED)
+# Mutation Rates (per base pair per generation)
+mutation_rate_S_cerevisiae,1.67e-10,per_bp_per_generation,4e-12,"Saccharomyces cerevisiae genome-wide",Multiple,"Budding yeast, model organism"
+mutation_rate_S_cerevisiae_URA3,3.80e-10,per_bp_per_generation,5e-11,"S. cerevisiae URA3 gene",Estimated,"Gene-specific, higher than average"
+mutation_rate_S_cerevisiae_CAN1,6.44e-10,per_bp_per_generation,8e-11,"S. cerevisiae CAN1 gene",Estimated,"Gene-specific variation"
+mutation_rate_fungi_typical,5e-10,per_bp_per_generation,3e-10,"Typical fungi range 10⁻⁸ to 10⁻¹⁰",Multiple,"General fungal mutation rate"
+mutation_rate_C_neoformans_est,1e-9,per_bp_per_generation,5e-10,"Estimated for C. neoformans",Estimated,"Precise genome-wide rate not established"
+mutation_rate_C_neoformans_mutator,2e-7,per_bp_per_generation,1e-7,"C. neoformans mutator strain (MSH2-)",Estimated,"200-fold elevated, DNA repair deficient"
+
+# Selection Coefficients
+selection_coef_melanin_radiation,0.30,dimensionless,0.15,"Melanin in high radiation environments",Inferred from Dadachova,"3x growth = ~30% fitness advantage"
+selection_coef_melanin_baseline,0.05,dimensionless,0.03,"Melanin in normal conditions",Estimated,"Slight cost vs benefit trade-off"
+selection_coef_radiation_resistance,0.25,dimensionless,0.10,"Radiation resistance allele general",Estimated,"Strong positive selection in contaminated sites"
+
+# Lotka-Volterra Competition Coefficients (α)
+alpha_coexistence_typical,0.5,dimensionless,0.2,"Typical α < 1 for coexistence",10.3389/fmicb.2021.649505,"Intraspecific > interspecific competition"
+alpha_competitive_exclusion,1.5,dimensionless,0.3,"Typical α \u003e 1 for exclusion",10.3389/fmicb.2021.654205,"Interspecific > intraspecific competition"
+alpha_fungi_bacteria,0.7,dimensionless,0.3,"Fungi-bacteria competition",Estimated,"Moderate competition, often coexist"
+alpha_same_guild,1.2,dimensionless,0.4,"Within-guild competition (e.g., saprotrophs)",Estimated,"Stronger competition for identical niches"
+
+# Michaelis-Menten Parameters - Glucose Uptake
+Km_glucose_high_affinity,12,micromolar,5,"High-affinity transporter (T. harzianum)",10.1128/AEM.00138-09,"Low Km = high affinity"
+Km_glucose_low_affinity,17500,micromolar,2500,"Low-affinity transporter (T. harzianum), 15-20 mM",10.1128/AEM.00138-09,"Constitutive system"
+Km_glucose_N_crassa,10,micromolar,3,"Neurospora crassa inducible system",Multiple,"Very high affinity"
+Vmax_glucose_typical,100,nmol_per_mg_per_min,50,"Typical fungal Vmax for glucose",Estimated,"Varies widely by species and conditions"
+
+# Michaelis-Menten Parameters - Nitrogen Uptake  
+Km_NH4_high_affinity,2.53,micromolar,0.25,"Ammonium high-affinity (Rhizophagus irregularis)",10.3390/jof5030084,"AM fungi, extremely low Km"
+Km_NH4_typical,10,micromolar,5,"Typical fungal ammonium uptake",Multiple,"General range for fungi"
+Km_NO3_typical,50,micromolar,20,"Typical fungal nitrate uptake",Multiple,"Generally higher Km than NH4+"
+Vmax_NH4_fungi,200,nmol_per_g_per_hour,100,"Fungal ammonium uptake capacity",Estimated,"Higher Vmax than plants"
+Vmax_NO3_fungi,150,nmol_per_g_per_hour,75,"Fungal nitrate uptake capacity",Estimated,"Microbes \u003e plants for nitrogen"
+
+# Week 2.2: To be filled with complete database assembly
+# - Create validation_datasets.csv
+# - Write data/README.md
+# - Document all sources in references.bib

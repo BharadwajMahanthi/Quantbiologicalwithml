@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+matplotlib
+statsmodels
+faker
+deap
+torch
+pygad
+lxml
+astropy

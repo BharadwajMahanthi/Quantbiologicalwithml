@@ -1,0 +1,177 @@
+{
+  "_units": "µSv per hour",
+  "Red Forest, Ukraine": {
+    "Background_µSv_hr": 10.5,
+    "Measurement_µSv_hr": [9.5, 11.5],
+    "isotope_list": [
+      {"isotope": "Cs-137", "energy_MeV": [0.662], "rel_intensity": [0.85]},
+      {"isotope": "Am-241", "energy_MeV": [0.0595], "rel_intensity": [0.10]},
+      {"isotope": "Cs-134", "energy_MeV": [0.605, 0.796], "rel_intensity": [0.03, 0.02]},
+      {"isotope": "Sr-90", "energy_MeV": [], "rel_intensity": [], "comment": "Beta emitter"}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 1.6, "name": "soil", "composition": {"O": 0.49, "Si": 0.33, "Al": 0.08, "Fe": 0.04, "Ca": 0.03, "K": 0.02, "Mg": 0.01, "Cs137": 0.000001}}
+    ]
+  },
+  "Chernobyl Village, Ukraine": {
+    "Background_µSv_hr": 0.3,
+    "Measurement_µSv_hr": [0.25, 0.35],
+    "isotope_list": [
+      {"isotope": "Cs-137", "energy_MeV": [0.662], "rel_intensity": [0.85]},
+      {"isotope": "Am-241", "energy_MeV": [0.0595], "rel_intensity": [0.10]}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 1.6, "name": "soil", "composition": {"O": 0.49, "Si": 0.33, "Al": 0.08, "Fe": 0.04, "Ca": 0.03, "K": 0.02, "Mg": 0.01, "Cs137": 0.000001}}
+    ]
+  },
+  "Near Zalizia, Ukraine": {
+    "Background_µSv_hr": 1.0,
+    "Measurement_µSv_hr": [0.9, 1.1],
+    "isotope_list": [
+      {"isotope": "Cs-137", "energy_MeV": [0.662], "rel_intensity": [0.85]},
+      {"isotope": "Am-241", "energy_MeV": [0.0595], "rel_intensity": [0.15]}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 1.6, "name": "soil", "composition": {"O": 0.49, "Si": 0.33, "Al": 0.08, "Fe": 0.04, "Ca": 0.03, "K": 0.02, "Mg": 0.01, "Cs137": 0.000001}}
+    ]
+  },
+  "EcoCenter, Ukraine": {
+    "Background_µSv_hr": 0.2,
+    "Measurement_µSv_hr": [0.18, 0.22],
+    "isotope_list": [
+      {"isotope": "Cs-137", "energy_MeV": [0.662], "rel_intensity": [0.85]},
+      {"isotope": "Am-241", "energy_MeV": [0.0595], "rel_intensity": [0.10]}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 2.35, "name": "concrete", "composition": {"O": 0.53, "Si": 0.34, "Ca": 0.07, "Al": 0.04, "Fe": 0.01, "H": 0.01, "Cs137": 0.000001}}
+    ]
+  },
+  "Vesniane, Ukraine": {
+    "Background_µSv_hr": 5.0,
+    "Measurement_µSv_hr": [4.5, 5.5],
+    "isotope_list": [
+      {"isotope": "Cs-137", "energy_MeV": [0.662], "rel_intensity": [0.85]},
+      {"isotope": "Am-241", "energy_MeV": [0.0595], "rel_intensity": [0.10]},
+      {"isotope": "Cs-134", "energy_MeV": [0.605, 0.796], "rel_intensity": [0.03, 0.02]},
+      {"isotope": "Sr-90", "energy_MeV": [], "rel_intensity": [], "comment": "Beta emitter"}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 1.6, "name": "soil", "composition": {"O": 0.49, "Si": 0.33, "Al": 0.08, "Fe": 0.04, "Ca": 0.03, "K": 0.02, "Mg": 0.01, "Cs137": 0.000001}}
+    ]
+  },
+  "Ivankov, Ukraine": {
+    "Background_µSv_hr": 0.12,
+    "Measurement_µSv_hr": [0.10, 0.14],
+    "isotope_list": [
+      {"isotope": "Cs-137", "energy_MeV": [0.662], "rel_intensity": [0.85]},
+      {"isotope": "K-40", "energy_MeV": [1.46], "rel_intensity": [0.10]}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 1.6, "name": "soil", "composition": {"O": 0.49, "Si": 0.33, "Al": 0.08, "Fe": 0.04, "Ca": 0.03, "K": 0.02, "Mg": 0.01, "Cs137": 0.000001}}
+    ]
+  },
+  "Voronkov, Ukraine": {
+    "Background_µSv_hr": 0.1,
+    "Measurement_µSv_hr": [0.09, 0.11],
+    "isotope_list": [
+      {"isotope": "Cs-137", "energy_MeV": [0.662], "rel_intensity": [0.85]},
+      {"isotope": "K-40", "energy_MeV": [1.46], "rel_intensity": [0.10]}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 1.6, "name": "soil", "composition": {"O": 0.49, "Si": 0.33, "Al": 0.08, "Fe": 0.04, "Ca": 0.03, "K": 0.02, "Mg": 0.01, "Cs137": 0.000001}}
+    ]
+  },
+  "Budaörs, Hungary": {
+    "Background_µSv_hr": 0.12,
+    "Measurement_µSv_hr": [0.11, 0.13],
+    "isotope_list": [
+      {"isotope": "K-40", "energy_MeV": [1.46], "rel_intensity": [0.10]},
+      {"isotope": "U-238", "energy_MeV": [0.049], "rel_intensity": [0.05]}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 1.6, "name": "soil", "composition": {"O": 0.49, "Si": 0.33, "Al": 0.08, "Fe": 0.04, "Ca": 0.03, "K": 0.02, "Mg": 0.01}}
+    ]
+  },
+  "Bingen-am-Rhein, Germany": {
+    "Background_µSv_hr": 0.12,
+    "Measurement_µSv_hr": [0.11, 0.13],
+    "isotope_list": [
+      {"isotope": "K-40", "energy_MeV": [1.46], "rel_intensity": [0.10]},
+      {"isotope": "U-238", "energy_MeV": [0.049], "rel_intensity": [0.05]}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 1.6, "name": "soil", "composition": {"O": 0.49, "Si": 0.33, "Al": 0.08, "Fe": 0.04, "Ca": 0.03, "K": 0.02, "Mg": 0.01}}
+    ]
+  },
+  "Monheim-am-Rhein, Germany": {
+    "Background_µSv_hr": 0.12,
+    "Measurement_µSv_hr": [0.11, 0.13],
+    "isotope_list": [
+      {"isotope": "K-40", "energy_MeV": [1.46], "rel_intensity": [0.10]},
+      {"isotope": "U-238", "energy_MeV": [0.049], "rel_intensity": [0.05]}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 1.6, "name": "soil", "composition": {"O": 0.49, "Si": 0.33, "Al": 0.08, "Fe": 0.04, "Ca": 0.03, "K": 0.02, "Mg": 0.01}}
+    ]
+  },
+  "Chernobyl Reactor, Ukraine": {
+    "Background_µSv_hr": 2.5,
+    "Measurement_µSv_hr": [2.0, 3.0],
+    "isotope_list": [
+      {"isotope": "Cs-137", "energy_MeV": [0.662], "rel_intensity": [0.85]},
+      {"isotope": "Am-241", "energy_MeV": [0.0595], "rel_intensity": [0.10]},
+      {"isotope": "Cs-134", "energy_MeV": [0.605, 0.796], "rel_intensity": [0.03, 0.02]},
+      {"isotope": "Sr-90", "energy_MeV": [], "rel_intensity": [], "comment": "Beta emitter"}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 2.35, "name": "concrete", "composition": {"O": 0.53, "Si": 0.34, "Ca": 0.07, "Al": 0.04, "Fe": 0.01, "H": 0.01, "Cs137": 0.000001}}
+    ]
+  },
+  "Ecopolis, Ukraine": {
+    "Background_µSv_hr": 0.15,
+    "Measurement_µSv_hr": [0.13, 0.17],
+    "isotope_list": [
+      {"isotope": "Cs-137", "energy_MeV": [0.662], "rel_intensity": [0.85]},
+      {"isotope": "K-40", "energy_MeV": [1.46], "rel_intensity": [0.10]}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 2.35, "name": "concrete", "composition": {"O": 0.53, "Si": 0.34, "Ca": 0.07, "Al": 0.04, "Fe": 0.01, "H": 0.01, "Cs137": 0.000001}}
+    ]
+  },
+  "Hilton, Ukraine": {
+    "Background_µSv_hr": 0.8,
+    "Measurement_µSv_hr": [0.7, 0.9],
+    "isotope_list": [
+      {"isotope": "Cs-137", "energy_MeV": [0.662], "rel_intensity": [0.85]},
+      {"isotope": "Am-241", "energy_MeV": [0.0595], "rel_intensity": [0.10]}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 1.6, "name": "soil", "composition": {"O": 0.49, "Si": 0.33, "Al": 0.08, "Fe": 0.04, "Ca": 0.03, "K": 0.02, "Mg": 0.01, "Cs137": 0.000001}}
+    ]
+  },
+  "Near Chernobyl, Ukraine": {
+    "Background_µSv_hr": 0.2,
+    "Measurement_µSv_hr": [0.18, 0.22],
+    "isotope_list": [
+      {"isotope": "Cs-137", "energy_MeV": [0.662], "rel_intensity": [0.85]},
+      {"isotope": "K-40", "energy_MeV": [1.46], "rel_intensity": [0.10]}
+    ],
+    "materials": [
+      {"density": 0.001225, "name": "air", "composition": {"N": 0.78, "O": 0.21, "Ar": 0.01}},
+      {"density": 1.6, "name": "soil", "composition": {"O": 0.49, "Si": 0.33, "Al": 0.08, "Fe": 0.04, "Ca": 0.03, "K": 0.02, "Mg": 0.01, "Cs137": 0.000001}}
+    ]
+  }
+}
